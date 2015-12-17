@@ -1,0 +1,36 @@
+{
+  "name": "matterbot",
+  "version": "1.0.0",
+  "description": "A super-simple bot API for Mattermost",
+  "main": "lib/matterbot.js",
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekytime/matterbot.git"
+  },
+  "keywords": [
+    "mattermost",
+    "bot"
+  ],
+  "author": "Geekytime",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekytime/matterbot/issues"
+  },
+  "homepage": "https://github.com/geekytime/matterbot#readme",
+  "devDependencies": {
+    "commitizen": "~2.4.6",
+    "cz-conventional-changelog": "~1.1.5",
+    "eslint": "~1.10.3",
+    "mocha": "~2.3.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
