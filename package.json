@@ -32,5 +32,11 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "axios": "~0.8.1",
+    "bluebird": "~3.1.1",
+    "hapi": "~11.1.2",
+    "lodash": "~3.10.1"
   }
 }
