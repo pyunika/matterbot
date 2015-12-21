@@ -5,8 +5,7 @@
   "main": "lib/matterbot.js",
   "scripts": {
     "commit": "git-cz",
-    "lint": "eslint .",
-    "test": "mocha"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
