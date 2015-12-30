@@ -17,6 +17,7 @@ var parsePhrase = function(text){
 
 matterbot.addHandler(function(message, respond){
   var phrase = parsePhrase(message.text);
+  //HEY YOU! This is the giphy public test api key. Don't use this for more than simple test purposes, okay?
   var giphyUrl = "http://api.giphy.com/v1/gifs/translate?rating=pg&api_key=dc6zaTOxFJmzC&fmt=json&s=" + phrase;
   r.get(giphyUrl, function(error, response, body){
     var data = JSON.parse(body).data;
