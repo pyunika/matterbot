@@ -16,6 +16,6 @@ var greetings = [
 matterbot.addHandler(function(message, respond){
   if (message.text.toLowerCase().includes("matterbot")){
     var greeting = sample(greetings) + message.user_name + ".";
-    respond(greeting);
+    respond({text: greeting});
   }
 });
